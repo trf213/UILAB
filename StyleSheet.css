@@ -17,15 +17,7 @@ color: white;
   text-decoration: none;
   border-radius: 50%;
 }
-.fa:hover {
-  padding: 20px;
-  font-size: 30px;
-  width: 30px;
-  text-align: center;
-  text-decoration: none;
-  border-radius: 50%;
-  color: white;
-}
+
 .fa-instagram {
   background: grey;
   color: white;
@@ -101,8 +93,31 @@ div.sticky {
   color: 	white;
   
 }
+.middleButton a
+{
+  border-radius: 5px;
+  background-color: darkcyan;
+  color: white;
+  font-size: 35px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
 
-
+.middleButton a:hover
+{
+  text-decoration: none;
+  opacity: 0.7;
+  border-radius: 5px;
+  background-color: darkcyan;
+  color: white;
+  font-size: 35px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
 .navItemLI a
 
 {
@@ -144,8 +159,7 @@ div.sticky {
   padding: 50px;
   padding-right: 50px;
   padding-left: 50px;
-  padding-top: 100px;
-  height: 800px;
+  height: 600px;
 }
 .repair{
   align-items: baseline;
