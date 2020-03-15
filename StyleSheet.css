@@ -6,8 +6,13 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#141414",endCo
 text-align: center;
 font-family: 'Alatsi', sans-serif;
 color: white;
+padding: 0%;
+margin: 0%;
 
-
+}
+.row 
+{
+  margin: 0px;
 }
 .fa {
   padding: 20px;
@@ -36,37 +41,87 @@ footer
 {
   background-color: #181818;
   height: 200px;
+  padding: 0%;
+  margin: 0px;
 }
 a
 {
     text-decoration: none;
 
 }
-.imgTop
-{
-  margin-bottom: 200px;
-  	
-	
-	
-	
 
-
-  position: absolute;
-  left: 0px;
-  top: 0px;
-  z-index: -1;
-}
 .bg-bg
+{
+  background-image: url('img/HardHat.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+  height: 500px;
+  text-align: end;
+ 
+
+ 
+}
+.signUpArea{
+  
+
+  margin: 0px;
+  padding-top: 50px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+}
+.signUp{ 
+ 
+  border-radius: 10px;
+  background-color: dimgray;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+
+ 
+
+  
+}
+
+input[type=text], select {
+  margin-top: 10px;
+  width: 100%;
+  align-content: center;
+  padding: 12px 20px;
+  margin: 20px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.bg-bg:hover
 {
   
   top: 0px;
-  background-color: #384951;
+  
   height: 500px;
   text-align: end;
   background-image: url('img/HardHat.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  
  
 }
 
@@ -152,14 +207,14 @@ div.sticky {
 
 .section2
 {
-  margin: 0px;
+  margin: 10px;
   background: radial-gradient(#384951,#2E383A);
   text-align: center;
   color:white;
   padding: 50px;
-  padding-right: 50px;
-  padding-left: 50px;
-  height: 600px;
+  padding-right: 10px;
+  padding-left: 10px;
+  height: 800px;
 }
 .repair{
   align-items: baseline;
@@ -171,7 +226,7 @@ p{color: white;}
   background-image: url('img/tools.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  margin: 0px;
+  
 
   
   text-align: center;
@@ -617,12 +672,8 @@ text-decoration: none;
 .top-buffer { margin-top:20px; }
 .bottom-buffer { margin-bottom:20px; }
 
-.bg-bg{ background-color: #221F27;
-color: #FFF;
-}
-.bg-bg:hover{ opacity: 0.7;
-  color: white;
-  }
+
+
  .mytextarea{ 
    font-size: 50px;
 
