@@ -47,48 +47,62 @@
           </nav>
             </div>
         </div>
-       
-        <div class="row signUpArea">
+       <div class="row">
+        
+     
+        <div class="row col-sm-6 signUpArea">
             <div class="signUp col-sm-12">
                 <h1>Sign Up</h1>
                 <form action="/action_page.php">
-                    <p align= "justify" style="padding-top: 10px; font-size: 30px;">First Name</p>
-                    <input type="text" id="fname" name="firstname" placeholder="First Name">
-                
-                   
-                    <p align= "justify" style="padding-top: 10px; font-size: 30px;">Last Name</p>
-                    <input align= "justify" type="text" id="lname" name="lastname" placeholder="Last Name">
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <p align= "justify" >First Name</p>
+                            <input type="text" id="fname" name="firstname" placeholder="First Name">
                     
-                    <p align= "justify" style="padding-top: 10px; font-size: 30px;">Other Name</p>
+                        </div>
+                        <div class="col-sm-4">
+                            <p align= "justify" >Other Name</p>
                     <input type="text" id="lname" name="lastname" placeholder="Other Name">
                     
-                    <p align= "justify" style="padding-top: 10px; font-size: 30px;">Gender</p>
+                        </div>
+                        <div class="col-sm-4">
+
+                        <p align= "justify" >Last Name</p>
+                        <input align= "justify" type="text" id="lname" name="lastname" placeholder="Last Name">
+                       
+                        </div>
+                        
+                       
+                    </div>
+                    
+                    
+                    <p align= "justify"  >Gender</p>
                     <select id="country" name="country">
                       <option value="Male">Male</option>
                       <option value="Female">Female</option>
                       <option value="Other">Other</option>
                     </select>
                     
-                    <p align= "justify" style="padding-top: 10px; font-size: 30px;">Email</p>
+                    <p align= "justify" >Email</p>
                     <input type="text" id="lname" name="lastname" placeholder="Email">
                     
-                    <p align= "justify" style="padding-top: 10px; font-size: 30px;">PSA Number</p>
+                    <p align= "justify" >PSA Number</p>
                     <input type="text" id="lname" name="lastname" placeholder="PSA Number">
                     
-                    <p align= "justify" style="padding-top: 10px; font-size: 30px;">User Name</p>
+                    <p align= "justify" >User Name</p>
                     <input type="text" id="lname" name="lastname" placeholder="User Name">
                     
-                    <p align= "justify" style="padding-top: 10px; font-size: 30px;">Password</p>
+                    <p align= "justify" >Password</p>
                     <input type="text" id="lname" name="lastname" placeholder="Password">
                     
-                    <p align= "justify" style="padding-top: 10px; font-size: 30px;">Confirm Password</p>
+                    <p align= "justify">Confirm Password</p>
                     <input type="text" id="lname" name="lastname" placeholder="Confirm Password">
                     
                     <div class="row">
-                        <div class="col-sm-6">
+                        <div class="top-buffer col-sm-6">
                             <input type="submit" value="Submit">
                         </div>
-                        <div class="col-sm-6">
+                        <div class="top-buffer col-sm-6">
                             <input style="background-color: tomato;"type="submit" value="Cancel">
                         </div>
                     </div>
@@ -99,8 +113,33 @@
                   </form>
             </div>
         </div>
-     
+        <div class="row col-sm-6 signUpArea "> 
 
+                <div class="row signUp">
+                    <div class="col-sm-12">  <h1>Address</h1></div>
+                    <div class= "col-sm-12">   <form action="">
+                        <p style=""> Phone</p>
+                        <input type="text" placeholder="1(111)111-1111">
+                        <p style=""> Address Line 1</p>
+                        <input type="text" placeholder="Address line 1">
+                        <p style=""> Address Line 2</p>
+                        <input type="text" placeholder="Address line 2">
+                        <p > City</p>
+                        <input type="text" placeholder="City">
+
+                        <p > State</p>
+                        <input type="text" placeholder="State">
+                        <p > Postal </p>
+                        <input type="text" placeholder="Postal">
+                        <p > Country</p>
+                        <input type="text" placeholder=" Country">
+
+                        <input class="top-buffer"style="width: 30%"  type="submit" value="Save">
+                    </form></div>
+                 
+                </div>
+        </div>
+    </div>
  
       
 
