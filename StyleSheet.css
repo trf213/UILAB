@@ -77,8 +77,8 @@ a
   text-align: start;
  align-items: flex-start;
   border-radius: 10px;
-  background-color: 	#9b9999;
-  
+  background-color: 	#9b99994b;
+   
   padding-left: 30px;
   padding-right: 30px;
   padding-top: 50px;
@@ -212,6 +212,11 @@ color: rgb(171, 171, 171);
   color: 	white;
   
 }
+.nav-item{
+color: black;
+
+}
+
 .middleButton a
 {
   border-radius: 5px;
@@ -241,17 +246,22 @@ color: rgb(171, 171, 171);
 
 {
   
-  font-size: 30px;
+  font-size: 20px;
   color: white;
   padding-left: 20px;
   padding-right: 20px;
 }
 
-.navItemLI a:hover
+.navItemLI :hover
 
 {
+  transition: 7ms;
+  opacity: 0.7;
+  border-radius: 5px;
+  padding: 20px;
   text-decoration: none;
-  font-size: 30px;
+  background-color: rgba(36, 36, 36, 0.486);
+  font-size: 20px;
   color: white;
   padding-left: 20px;
   padding-right: 20px;
